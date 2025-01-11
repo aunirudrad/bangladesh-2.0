@@ -135,6 +135,9 @@
 .color-3{
     color: rgba(14, 14, 14, 0.5);
 }
+.color-4{
+    color: rgba(14, 14, 14, 0.7);
+}
 
 /* shared button styles */
 
@@ -202,4 +205,49 @@ nav .nav-title{
 
 img{
     margin: 80px 60px 80px 60px;
+}
+
+main{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.stakeholders-container{
+    /* width: 1280px; */
+    margin: 80px 0;
+
+}
+.stakeholders-heading{
+    font-size: 40px;
+    margin-bottom: 32px;
+
+}
+
+.stakeholders{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.stakeholders-content{
+    width: 302px;
+    border: none;
+    padding: 24px;
+    border-radius: 16px;
+    background-color: #fff;
+}
+
+.stakeholders-content img {
+    margin: 0 0 24px 0;
+}
+
+.content-title{
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.content-description{
+    font-size: 16px;
+
 }

@@ -142,6 +142,12 @@
 .color-4{
     color: rgba(14, 14, 14, 0.7);
 }
+.color-5{
+    color: rgba(14, 14, 14, 0.6);
+}
+.color-6{
+    color: rgba(14, 14, 14, 0.8);
+}
 
 .vision-card-color-1{
     background-color: rgba(84, 144, 245, 0.2);
@@ -316,4 +322,31 @@ main{
 .vision-description{
     font-size: 16px;
     margin-bottom: 32px;
+}
+
+/* quote container design */
+
+.quote{
+    padding: 48px 24px;
+    border: none;
+    border-radius: 16px;
+    background-color: #fff;
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 25px 22px;
+
+}
+
+.quote-content{
+    margin-bottom: 12px;
+}
+
+.quote-person{
+    margin-bottom: 4px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.8);
+}
+.person-designation{
+    color: rgba(14, 14, 14, 0.6);
 }

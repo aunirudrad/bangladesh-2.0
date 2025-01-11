@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    line-height: 24px;
 }
 
 /* font initialization */
@@ -288,6 +289,7 @@ main{
 
 .content-description{
     font-size: 16px;
+    line-height: 24px;
 
 }
 
@@ -322,18 +324,21 @@ main{
 .vision-description{
     font-size: 16px;
     margin-bottom: 32px;
+    line-height: 24px;
 }
 
 /* quote container design */
 
 .quote{
-    padding: 48px 24px;
-    border: none;
-    border-radius: 16px;
     background-color: #fff;
     background-image: url("../assets/quote-bg.png");
     background-repeat: no-repeat;
     background-position: 25px 22px;
+    padding: 48px 24px;
+    border: none;
+    border-radius: 16px;
+    margin-bottom: 80px;
+    
 
 }
 
@@ -349,4 +354,84 @@ main{
 }
 .person-designation{
     color: rgba(14, 14, 14, 0.6);
+}
+
+/* news section styling */
+
+.news-title{
+    margin-bottom: 24px;
+}
+
+.news{
+    margin-bottom: 32px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+}
+.news-body{
+    border-radius: 24px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+.news-img{
+    border-radius: 24px;
+    margin: 48px 0 48px 48px;
+}
+
+.news-contents{
+    margin: 56px 48px 56px 0;
+    width: 744px;
+}
+.news-content{
+    margin-bottom: 32px;
+}
+
+.news-heading{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+
+
+}
+
+.newschannel{
+    margin: 12px 0;
+}
+
+.date-time{
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.date{
+    margin-right: 12px;
+}
+
+.news-description{
+    font-size: 16px;
+
+}
+
+.news-body-2{
+    border-radius: 24px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.news-body-2 .news-img{
+    border-radius: 24px;
+    margin: 48px 48px 48px;
+}
+
+.news-body-2 .news-contents{
+    margin: 56px 0 56px 48px;
+    width: 744px;
 }

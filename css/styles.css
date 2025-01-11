@@ -149,6 +149,9 @@
 .color-6{
     color: rgba(14, 14, 14, 0.8);
 }
+.color-7{
+    color: rgba(14, 14, 14, 0.3);
+}
 
 .vision-card-color-1{
     background-color: rgba(84, 144, 245, 0.2);
@@ -468,8 +471,6 @@ main{
     background-color: #fff;
 }
 
-
-
 input[type="text"]{
     height: 64px;
     width: 75%;
@@ -481,4 +482,59 @@ input[type="text"]{
     margin: 32px auto;
     padding: 20px 40px;
     text-align: center;
+}
+
+.newsletter-container{
+    text-align: center;
+    padding: 80px 265px 80px 265px;
+    border-radius: 16px;
+}
+.newsletter{
+    max-width: 750px;
+}
+
+.newsletter-content{
+    margin-bottom: 24px;
+}
+.news-title{
+    margin-bottom: 12px;
+}
+
+.newsletter form{
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+form input{
+    width: 100%;
+    border: none;
+
+    
+}
+input[type="email"]{
+
+    width: 600px;
+    /* max-height: 55px; */
+    padding: 18px 0 18px 40px;
+    border-radius: 15px 0 0 15px;
+}
+
+
+input[type="submit"]{
+    width: 150px;
+    /* max-height: 55px; */
+    background: #006A50;
+    padding: 18px 34px;
+    /* border-radius: 8px; */
+    border-radius: 0 15px 15px 0;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.commitment{
+    margin-top: 24px;
 }
